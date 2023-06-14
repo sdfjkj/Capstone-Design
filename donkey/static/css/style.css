@@ -39,12 +39,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -100px;
+  margin-top: -280px;
 }
-
+#OrderMainButton {
+  margin-bottom: 380px;
+}
 .main_btn {
   width: 700px;
-  height: 230px;
+  height: 200px;
   border-radius: 15px;
   margin: 13px auto;
 

@@ -26,6 +26,7 @@ def cart_push(request):
 
     cart_count = Cart.objects.count()
     tapNumber = request.POST.get("tapNumber")
+    
     #tapNumber 받아온 후, 
     if cart_count >= 6:
         messages.error(request, "Cart 모델 개수가 6개를 초과했습니다.")
